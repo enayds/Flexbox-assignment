@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+    padding: 2em;
+    align-items: center;
+}
+
+#body-content {
+    padding-top: 3em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sedans {
+    background: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.box-details {
+    flex-basis: 33.33%;
+    padding: 80px;
+    text-align: left;
+    color: white;
+}
+
+.box-details img {
+    margin-bottom: 20px;
+}
+
+.box-details h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+
+.box-details .paragraph p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 55px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    padding: 15px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+button:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+#sedans button:hover {
+    color: hsl(0, 0%, 95%)
+}
+
+#suvs button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+#luxury button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
